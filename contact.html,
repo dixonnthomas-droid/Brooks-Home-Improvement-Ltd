@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact | Brooks Home Improvement Ltd</title>
+<meta name="description" content="Request a free quote. Covering London + 50 miles."/>
+<link rel="stylesheet" href="styles.css"/></head><body>
+
+<div class="topbar"><div class="container topbar__inner">
+  <div><span class="badge">✅ Fully Insured</span> <span class="muted">London + 50 miles</span></div>
+  <div class="topbar__right"><a class="toplink" href="tel:+447000000000">Call: 07000 000000</a></div>
+</div></div>
+
+<header class="header"><div class="container header__inner">
+  <a class="brand" href="index.html"><img class="brand__img" src="assets/logo.png" alt="Logo">
+    <div><div class="brand__name">Brooks Home Improvement Ltd</div><div class="brand__tag">Roofing • Home Improvements • Roofline</div></div>
+  </a>
+  <button class="menuBtn" id="menuBtn" aria-expanded="false" aria-controls="menu">☰</button>
+  <nav class="nav" id="menu">
+    <a href="services.html">Services</a><a href="areas.html">Areas</a><a href="gallery.html">Gallery</a><a href="contact.html" class="btn btn--small">Get a Quote</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="section">
+  <div class="container">
+    <div class="section__head"><h2>Request a free quote</h2><p class="muted">We’ll reply quickly. Send postcode + photos if possible.</p></div>
+
+    <div class="formWrap">
+      <form class="card form" id="leadForm">
+        <label><span>Full name</span><input name="name" required></label>
+        <div class="grid2">
+          <label><span>Phone</span><input name="phone" required></label>
+          <label><span>Postcode</span><input name="postcode" required></label>
+        </div>
+        <label><span>Email</span><input type="email" name="email" required></label>
+        <label><span>Service</span>
+          <select name="service" required>
+            <option value="" disabled selected>Select</option>
+            <option>Roof repair</option>
+            <option>New roof</option>
+            <option>Guttering</option>
+            <option>Ridge / flashing</option>
+            <option>Roofline</option>
+            <option>Storm damage</option>
+          </select>
+        </label>
+        <label><span>Message</span><textarea name="message" rows="6" placeholder="Tell us what’s happening."></textarea></label>
+        <button class="btn" type="submit">Send Request</button>
+        <p class="muted small" id="status" style="margin-top:10px"></p>
+        <p class="muted small">This opens your email app unless you add Formspree.</p>
+      </form>
+
+      <aside class="card">
+        <h3>Contact</h3>
+        <p class="muted">
+          Phone: <a class="toplink" href="tel:+447000000000">07000 000000</a><br>
+          Email: <a class="toplink" href="mailto:info@yourdomain.co.uk">info@yourdomain.co.uk</a>
+        </p>
+        <h3>Coverage</h3>
+        <p class="muted">London + 50 mile radius</p>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="callNow" href="tel:+447000000000">📞 Call Now</a>
+
+<footer class="footer"><div class="container footer__inner">
+  <div><strong>Brooks Home Improvement Ltd</strong><div class="muted small">London + 50 mile radius</div></div>
+  <div class="muted small">© <span id="year"></span></div>
+</div></footer>
+
+<script src="script.js"></script>
+</body></html>
